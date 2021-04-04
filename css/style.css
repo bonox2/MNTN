@@ -74,8 +74,7 @@ span {
     margin: 0 auto;
 }
 :root {
-	--theme-color: rgb(247, 148, 30);
-	--theme-color-2: rgb(241, 241, 242);
+	--theme-color: #FBD784;
 	--color: #fff;
 	--color-2: #000;
   }
@@ -121,6 +120,13 @@ span {
   }
   .title{
 	  width: 950px;
+  }
+  .title-name{
+	  font-size:24px;
+	  color: var(--theme-color);
+  }
+  .title-name:before{
+	  border-top: 1px solid var(--theme-color);
   }
   .hero-h1{
 	font-size: 88px;
