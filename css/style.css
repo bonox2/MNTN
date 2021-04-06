@@ -224,3 +224,12 @@ body {
   text-align: left;
 }
 /* hero end  */
+/*tip start*/
+.tips{
+	margin-top: -100px;
+}
+.tip-section{
+	width: 630px;
+	display: flex;
+	justify-content: space-between;
+}
