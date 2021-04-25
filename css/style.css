@@ -106,7 +106,6 @@ section {
   display: block;
 }
 body {
-  color: var(--color);
   line-height: 1;
 }
 ol,
@@ -149,6 +148,9 @@ span {
 	background: #fff;
    
   } */
+body {
+  color:var(--color)
+}
 .container {
   width: 100%;
   max-width: 1460px;
@@ -222,12 +224,3 @@ span {
   text-align: left;
 }
 /* hero end  */
-/*tip start*/
-.tips{
-	margin-top: -100px;
-}
-.tip-section{
-	width: 630px;
-	display: flex;
-	justify-content: space-between;
-}
